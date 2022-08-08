@@ -1,0 +1,31 @@
+@font-face {
+    font-family:'Inter' ;
+    src: url(/fonts/inter_font/Inter-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url(/fonts/inter_font/Inter-Bold.otf);
+}
+
+.responsivelogo
+{
+    width: 10vw;
+    height: 10vw;
+
+}
+
+.ps-md-6
+{
+    padding-left: 35vw !important;
+}
+
+.ps-md-7
+{
+    padding-left: 37vw !important;
+}
+
+/* The most !important things */
+
+
+  
