@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Website Kelurahan Oetete</title>
 
     <!-- include bootstrap library -->
@@ -34,14 +35,16 @@
 
   <div class=""></div>
 
-  <p>Selamat Datang</p>
-  <p>di website kelurahan Cinta  Statistik (Cantik) - wilayah Oetete.</p>
+    <h1>Selamat Datang</h1>
 
-  <p>Website ini dibuat dengan tujuan memvisualisasi data yang ada pada 
+  <div class="welcome-page mx-auto"> 
+    <p>di website kelurahan Cinta  Statistik (Cantik) - wilayah Oetete.</p>
+
+    <p>Website ini dibuat dengan tujuan memvisualisasi data yang ada pada 
     Kelurahan Oetete agar dapat mempermudah pengunjung untuk mencakup informasi 
     terkait data penduduk dan juga data UMKM bagi penduduk Kelurahan Oetete.</p>
-  
-  
+  </div>
+   
 
   
 
@@ -84,23 +87,17 @@
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
   <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   </div>
+  
+  <!-- Set the id for placing the footer -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Import the navbar file -->
+  <script>
+    $.get("footer.html", function(data)
+    {
+      $("#footer-placeholder").replaceWith(data);
+    })
+  </script>
 </body>
 </html>

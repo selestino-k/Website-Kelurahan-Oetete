@@ -25,6 +25,18 @@
     padding-left: 37vw !important;
 }
 
+.fs-5
+{
+    font-size: 0.8vw !important;
+}
+
+.welcome-page{
+   color: black;
+   font-family: 'Inter';
+   /* text-align: left; */
+   font-size: 1.2vw; 
+}
+
 /* The most !important things */
 
 
