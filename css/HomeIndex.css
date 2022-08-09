@@ -10,15 +10,15 @@
 
 @font-face {
     font-family: 'Barlow-Bold';
-    src: url();
+    src: url(/fonts/barlow_font/Barlow-Bold.otf);
 }
 @font-face {
     font-family: 'Barlow-Regular';
-    src: url();
+    src: url(/fonts/barlow_font/Barlow-Regular.otf);
 }
 @font-face {
     font-family: 'Barlow-Bold';
-    src: url();
+    src: url(/fonts/barlow_font/Barlow-Extra\ Bold.ttf);
 }
 
 .responsivelogo
