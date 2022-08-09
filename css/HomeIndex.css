@@ -8,6 +8,19 @@
     src: url(/fonts/inter_font/Inter-Bold.otf);
 }
 
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url();
+}
+@font-face {
+    font-family: 'Barlow-Regular';
+    src: url();
+}
+@font-face {
+    font-family: 'Barlow-Bold';
+    src: url();
+}
+
 .responsivelogo
 {
     width: 10vw;
